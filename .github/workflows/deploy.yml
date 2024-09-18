@@ -42,5 +42,5 @@ jobs:
           id
           SMBSHARE="/mnt/drexel_web/2024-CCSTAE" &&
           rm -rf /mnt/drexel_web/2024-CCSTAE/* &&
-          JBPATH="./jupyterbook" &&
+          JBPATH="./notebooks" &&
           cp -r $JBPATH/_build/html/* $SMBSHARE
